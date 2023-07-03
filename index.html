@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label {
+        width: 170px;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <table border="2px">
+        <tr>
+          <td>
+            <label for="firstNumber">Enter First Number :</label>
+            <input type="text" id="firstNumber" name="firstNumber" value="" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="secondNumber">Enter Second Number :</label>
+            <input type="text" id="secondNumber" name="secondNumber" value="" />
+          </td>
+        </tr>
+        <tr>
+            <td id="sum">Sum : </td>
+        </tr>
+        <tr>
+          <td style="text-align: center">
+            <input type="submit" onClick="mySum()" value="Click to sum" />
+            <input type="reset" value="Reset" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <br>
+    <input type="submit" id="inputButton" value="Input Button" onClick = "clickMe()">
+    <br>
+    <button id="tagButton" > Tag Button </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
